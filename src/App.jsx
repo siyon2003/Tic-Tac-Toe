@@ -93,7 +93,7 @@ function App() {
           />
         </ol>
         {(winner || hasDraw) && (
-          <GameOver winner={winner} setGameTurn={setGameTurn} />
+          <GameOver winner={winner} setGameTurn={setGameTurn} setPlayers={setPlayers}/>
         )}
         <GameBoard onhandlePlayer={handleGameTurnChange} board={gameBoard} />
       </div>
