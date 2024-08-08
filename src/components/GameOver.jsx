@@ -7,7 +7,7 @@ const GameOver = ({ winner, setGameTurn, setPlayers }) => {
   };
   return (
     <div id="game-over">
-      <h2>Game Over</h2>
+      <h2>Game Over Mankatha da!</h2>
       {winner && <p>{winner.toUpperCase()} has won!!</p>}
       {!winner && <p>It's draw</p>}
       <p>
